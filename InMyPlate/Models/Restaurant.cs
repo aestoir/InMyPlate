@@ -15,6 +15,7 @@ namespace InMyPlate.Models
         public int Likes { get; set; }
         public Boolean Save { get; set; }
 
+        [Display(Name = "City")]
         public int CityId { get; set; }
 
         public City? City { get; set; }

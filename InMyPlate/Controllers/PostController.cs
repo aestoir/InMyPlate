@@ -59,7 +59,7 @@ namespace InMyPlate.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,Content,Image,Likes,Save,RestaurantId,CityId")] Post post)
+        public async Task<IActionResult> Create([Bind("Id,Title,Content,Image,RestaurantId,CityId")] Post post)
         {
             if (ModelState.IsValid)
             {
