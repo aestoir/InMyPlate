@@ -1,14 +1,16 @@
 ﻿<Properties StartupConfiguration="{A2BD6732-5D7D-45C4-AB3D-BE782EC22255}|https">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.InMyPlate PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="InMyPlate/Views/Shared/_Layout.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="InMyPlate/appsettings.json">
     <Files>
-      <File FileName="InMyPlate/Views/Shared/_Layout.cshtml" Line="54" Column="14" />
+      <File FileName="InMyPlate/Views/Shared/_Layout.cshtml" Line="53" Column="15" />
+      <File FileName="InMyPlate/Models/City.cs" Line="1" Column="1" />
+      <File FileName="InMyPlate/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="InMyPlate/Models/Post.cs" Line="1" Column="1" />
+      <File FileName="InMyPlate/Data/ApplicationDbContext.cs" Line="1" Column="1" />
+      <File FileName="InMyPlate/appsettings.json" Line="3" Column="159" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,13 +18,12 @@
           <Node name="InMyPlate" expanded="True">
             <Node name="InMyPlate" expanded="True">
               <Node name="Areas" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="Migrations" expanded="True" selected="True" />
+              </Node>
               <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Shared" expanded="True">
-                  <Node name="_Layout.cshtml" selected="True" />
-                </Node>
-              </Node>
+              <Node name="Views" expanded="True" />
               <Node name="wwwroot" expanded="True" />
             </Node>
           </Node>
@@ -30,4 +31,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>
