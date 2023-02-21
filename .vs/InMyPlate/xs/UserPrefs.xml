@@ -1,29 +1,36 @@
 ﻿<Properties StartupConfiguration="{A2BD6732-5D7D-45C4-AB3D-BE782EC22255}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.InMyPlate PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.InMyPlate PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="InMyPlate/appsettings.json">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="InMyPlate/Views/Shared/_Layout.cshtml" Line="53" Column="15" />
-      <File FileName="InMyPlate/Models/City.cs" Line="1" Column="1" />
-      <File FileName="InMyPlate/Models/ErrorViewModel.cs" Line="1" Column="1" />
-      <File FileName="InMyPlate/Models/Post.cs" Line="1" Column="1" />
-      <File FileName="InMyPlate/Data/ApplicationDbContext.cs" Line="1" Column="1" />
-      <File FileName="InMyPlate/appsettings.json" Line="3" Column="159" />
+      <File FileName="InMyPlate/Views/Shared/_Layout.cshtml" />
+      <File FileName="InMyPlate/Models/City.cs" />
+      <File FileName="InMyPlate/Models/ErrorViewModel.cs" />
+      <File FileName="InMyPlate/Models/Post.cs" />
+      <File FileName="InMyPlate/Data/ApplicationDbContext.cs" />
+      <File FileName="InMyPlate/appsettings.json" />
+      <File FileName="InMyPlate/Properties/launchSettings.json" />
+      <File FileName="InMyPlate/Program.cs" />
+      <File FileName="InMyPlate/Models/Restaurant.cs" />
+      <File FileName="InMyPlate/Migrations/20230220235444_initial.cs" />
+      <File FileName="InMyPlate/Views/City/Edit.cshtml" />
+      <File FileName="InMyPlate/Views/Post/Index.cshtml" />
+      <File FileName="InMyPlate/Views/Restaurant/Index.cshtml" />
+      <File FileName="InMyPlate/Views/Restaurant/Create.cshtml" />
+      <File FileName="InMyPlate/Views/Home/Index.cshtml" Line="3" Column="2" />
+      <File FileName="InMyPlate/Views/Post/Delete.cshtml" />
+      <File FileName="InMyPlate/wwwroot/css/site.css" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="InMyPlate" expanded="True">
             <Node name="InMyPlate" expanded="True">
-              <Node name="Areas" expanded="True" />
-              <Node name="Data" expanded="True">
-                <Node name="Migrations" expanded="True" selected="True" />
-              </Node>
-              <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Views" expanded="True" />
+              <Node name="ConnectedServicesFolder" selected="True" />
+              <Node name="Dependencies" expanded="True" />
               <Node name="wwwroot" expanded="True" />
             </Node>
           </Node>
@@ -32,6 +39,5 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
 </Properties>
