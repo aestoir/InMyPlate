@@ -215,6 +215,7 @@ namespace InMyPlate.Migrations
                         column: x => x.CityId,
                         principalTable: "City",
                         principalColumn: "Id",
+                        // modified onDelete action to prevent multiple cascade delete
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Post_Restaurant_RestaurantId",
