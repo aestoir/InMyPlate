@@ -1,29 +1,43 @@
 ﻿<Properties StartupConfiguration="{A2BD6732-5D7D-45C4-AB3D-BE782EC22255}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.InMyPlate PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="InMyPlate/appsettings.json">
+  <MonoDevelop.Ide.ItemProperties.InMyPlate PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../.microsoft/usersecrets/aspnet-InMyPlate-1b3d9024-d110-4a0a-ada2-d369afdb998a/secrets.json">
     <Files>
-      <File FileName="InMyPlate/Views/Shared/_Layout.cshtml" Line="53" Column="15" />
-      <File FileName="InMyPlate/Models/City.cs" Line="1" Column="1" />
-      <File FileName="InMyPlate/Models/ErrorViewModel.cs" Line="1" Column="1" />
-      <File FileName="InMyPlate/Models/Post.cs" Line="1" Column="1" />
-      <File FileName="InMyPlate/Data/ApplicationDbContext.cs" Line="1" Column="1" />
-      <File FileName="InMyPlate/appsettings.json" Line="3" Column="159" />
+      <File FileName="InMyPlate/Views/Shared/_Layout.cshtml" />
+      <File FileName="InMyPlate/Models/City.cs" />
+      <File FileName="InMyPlate/Models/ErrorViewModel.cs" />
+      <File FileName="InMyPlate/Models/Post.cs" />
+      <File FileName="InMyPlate/Data/ApplicationDbContext.cs" />
+      <File FileName="InMyPlate/appsettings.json" />
+      <File FileName="InMyPlate/Models/Restaurant.cs" />
+      <File FileName="InMyPlate/Controllers/RestaurantController.cs" />
+      <File FileName="InMyPlate/Controllers/PostController.cs" />
+      <File FileName="InMyPlate/Views/Post/Create.cshtml" />
+      <File FileName="InMyPlate/Views/Restaurant/Create.cshtml" />
+      <File FileName="InMyPlate/Program.cs" />
+      <File FileName="../../.microsoft/usersecrets/aspnet-InMyPlate-1b3d9024-d110-4a0a-ada2-d369afdb998a/secrets.json" Line="1" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="InMyPlate" expanded="True">
             <Node name="InMyPlate" expanded="True">
-              <Node name="Areas" expanded="True" />
-              <Node name="Data" expanded="True">
-                <Node name="Migrations" expanded="True" selected="True" />
+              <Node name="Areas" expanded="True">
+                <Node name="Identity" expanded="True">
+                  <Node name="Pages" expanded="True" />
+                </Node>
               </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Views" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+              </Node>
               <Node name="wwwroot" expanded="True" />
             </Node>
           </Node>
@@ -31,7 +45,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
 </Properties>

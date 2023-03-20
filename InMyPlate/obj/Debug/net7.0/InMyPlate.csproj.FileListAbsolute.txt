@@ -595,3 +595,4 @@
 /Users/leah/Projects/InMyPlate-COMP2084/InMyPlate/obj/Debug/net7.0/InMyPlate.pdb
 /Users/leah/Projects/InMyPlate-COMP2084/InMyPlate/obj/Debug/net7.0/InMyPlate.genruntimeconfig.cache
 /Users/leah/Projects/InMyPlate-COMP2084/InMyPlate/obj/Debug/net7.0/ref/InMyPlate.dll
+/Users/leah/Projects/InMyPlate-COMP2084/InMyPlate/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.Google.dll
