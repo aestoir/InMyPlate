@@ -1,12 +1,22 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+@*<style>
+    footer {
+        text-align: center;
+        font-size: small;
+        padding: 0px;
+        background-color: lightgrey;
+        color: white;
+</style>*@
 
 <div class="text-center">
     <h1 class="display-4">Welcome to InMyPlate</h1>
     <p>Explore our forum and find your next culinary adventure.</p>
     <br />
     <h2>Newest Posts</h2>
-    <p>Waiting for contents...</p>
+    @model Post
+    <h3>@Model.Title</h3>
+    <p>@Model.Content</p>
 </div>
 

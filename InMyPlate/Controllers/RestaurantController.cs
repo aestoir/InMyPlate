@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using InMyPlate.Data;
 using InMyPlate.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace InMyPlate.Controllers
 {
@@ -46,6 +47,7 @@ namespace InMyPlate.Controllers
         }
 
         // GET: Restaurant/Create
+        [Authorize]
         public IActionResult Create()
         {
             ViewData["CityId"] = new SelectList(_context.Set<City>(), "Id", "Name");
@@ -70,6 +72,7 @@ namespace InMyPlate.Controllers
         }
 
         // GET: Restaurant/Edit/5
+        [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Restaurant == null)
@@ -123,6 +126,7 @@ namespace InMyPlate.Controllers
         }
 
         // GET: Restaurant/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Restaurant == null)
