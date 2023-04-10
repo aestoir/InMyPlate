@@ -1,21 +1,12 @@
 ﻿<Properties StartupConfiguration="{A2BD6732-5D7D-45C4-AB3D-BE782EC22255}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="InMyPlate/Views/Home/Index.cshtml">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.InMyPlateTests FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="InMyPlate/Views/City/Index.cshtml">
     <Files>
-      <File FileName="InMyPlate/Views/Shared/_Layout.cshtml" />
-      <File FileName="InMyPlate/Models/City.cs" />
-      <File FileName="InMyPlate/Models/ErrorViewModel.cs" />
-      <File FileName="InMyPlate/Models/Post.cs" />
-      <File FileName="InMyPlate/Data/ApplicationDbContext.cs" />
-      <File FileName="InMyPlate/appsettings.json" Line="19" Column="4" />
-      <File FileName="InMyPlate/Models/Restaurant.cs" />
-      <File FileName="InMyPlate/Controllers/RestaurantController.cs" Line="50" Column="9" />
-      <File FileName="InMyPlate/Views/Post/Create.cshtml" />
-      <File FileName="InMyPlate/Views/Restaurant/Create.cshtml" />
-      <File FileName="InMyPlate/Program.cs" Line="1" Column="1" />
-      <File FileName="../../.microsoft/usersecrets/aspnet-InMyPlate-1b3d9024-d110-4a0a-ada2-d369afdb998a/secrets.json" Line="1" Column="2" />
-      <File FileName="InMyPlate/Controllers/CityController.cs" Line="18" Column="59" />
-      <File FileName="InMyPlate/Views/Home/Index.cshtml" Line="20" Column="26" />
-      <File FileName="InMyPlate/Controllers/HomeController.cs" Line="18" Column="28" />
+      <File FileName="InMyPlate/Views/City/Index.cshtml" Line="42" Column="18" />
+      <File FileName="InMyPlate/Views/Post/Index.cshtml" Line="68" Column="18" />
+      <File FileName="InMyPlate/Views/Restaurant/Index.cshtml" Line="59" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,13 +14,14 @@
           <Node name="InMyPlate" expanded="True">
             <Node name="InMyPlate" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="Migrations" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="City" expanded="True" />
-                <Node name="Home" expanded="True">
+                <Node name="City" expanded="True">
                   <Node name="Index.cshtml" selected="True" />
                 </Node>
                 <Node name="Post" expanded="True" />
                 <Node name="Restaurant" expanded="True" />
+                <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True" />
             </Node>
@@ -38,11 +30,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.InMyPlate PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.InMyPlate PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
 </Properties>

@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace InMyPlate.Controllers
 {
+    [Authorize]
     public class PostController : Controller
     {
         private readonly ApplicationDbContext _context;

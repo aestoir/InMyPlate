@@ -1,7 +1,7 @@
 @model IEnumerable<InMyPlate.Models.City>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Cities";
 }
 
 <h1>Cities</h1>
@@ -36,7 +36,6 @@
             <td>
                 @if (User.Identity.IsAuthenticated)
                 {
-                    <a href="@Url.Action("Create")">Create</a>
                     <a href="@Url.Action("Edit", new { id = item.Id })">Edit</a>
                     <a href="@Url.Action("Delete", new { id = item.Id })">Delete</a>
                 }
